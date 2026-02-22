@@ -1,0 +1,41 @@
+body {
+  background: black;
+  color: #00ff00;
+  font-family: monospace;
+  margin: 0;
+}
+
+.hidden { display: none; }
+
+#topbar {
+  padding: 6px;
+  border-bottom: 1px solid #00ff00;
+  display: flex;
+  justify-content: space-between;
+}
+
+#terminal {
+  padding: 10px;
+}
+
+#commandInput {
+  width: 100%;
+  background: black;
+  color: #00ff00;
+  border: none;
+  outline: none;
+  font-family: monospace;
+}
+
+.window {
+  border: 1px solid #00ff00;
+  padding: 10px;
+  margin: 10px;
+}
+
+button {
+  background: black;
+  color: #00ff00;
+  border: 1px solid #00ff00;
+  font-family: monospace;
+}
